@@ -1,0 +1,121 @@
+/* font-family: 'Satisfy', cursive;   font-family: 'Poiret One', cursive;*/
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(203, 235, 203);
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: -45px;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+    color: darkred;
+    text-shadow: grey 5px 5px 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#title {
+    background-color: rgba(255, 250, 240, 0.5);
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+}
+
+#game {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+
+}
+
+#p1card, #p2card { /*parent*/
+    background-color: floralwhite;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#middlediv { /*parent*/
+    background-color: floralwhite;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#middledivinfo {
+    height: 215px;
+}
+
+#middlediv h4 {
+    font-size: 2rem;
+}
+
+#middledivinfo p {
+    font-size: 1.5rem;
+}
+
+#message {
+    height: 26px;
+}
+
+#Player1, #Player2 {
+    font-size: 2rem;
+}
+
+#p1crem, #p2crem, #p1stats, #p2stats {
+    font-size: 1.5rem;
+}
+
+#p1cardimg, #p2cardimg {
+    width: 198px;
+    height: 254px;
+}
+
+#name1, #name2 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: darkred;
+    color: floralwhite;
+    margin-top: 2px;
+    margin-bottom: 1rem;
+}
